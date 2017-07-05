@@ -18,6 +18,10 @@ what gets copied to clipboard
 {"wow":"cool"}
 ```
 
+## Notes
+
+Must be called in response to a user gesture event, like click or keyup.
+
 ## Install
 
 ```
