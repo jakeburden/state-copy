@@ -9,7 +9,12 @@ Makes it easier to copy application state to your clipboard from the browser.
 ```js
 var stateCopy = require('state-copy')
 
-stateCopy({wow: 'cool'})
+window.addEventListener('keyup', function (e) {
+  // press 'c' to copy current state to clipboard
+  if (e.keyCode === 67) {
+    stateCopy({wow: 'cool'})
+  }
+})
 ```
 
 what gets copied to clipboard
