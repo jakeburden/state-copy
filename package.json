@@ -1,0 +1,16 @@
+{
+  "name": "state-copy",
+  "version": "1.0.0",
+  "description": "takes an object as input then serializes it as JSON and copies it to your clipboard",
+  "main": "index.js",
+  "author": " <jake @o91tsjBgL0l0zs475aRWYSAXFxvirZS7VrXmirY/msI=.ed25519>",
+  "license": "MIT",
+  "dependencies": {
+    "copy-text-to-clipboard": "^1.0.2",
+    "fast-safe-stringify": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jekrb/state-copy.git"
+  }
+}
