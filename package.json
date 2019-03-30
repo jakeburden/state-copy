@@ -6,7 +6,7 @@
   "author": " <jake @o91tsjBgL0l0zs475aRWYSAXFxvirZS7VrXmirY/msI=.ed25519>",
   "license": "MIT",
   "dependencies": {
-    "copy-text-to-clipboard": "^1.0.2",
+    "copy-text-to-clipboard": "github:deliriousrhino/copy-text-to-clipboard#master",
     "fast-safe-stringify": "^1.2.0"
   },
   "repository": {
