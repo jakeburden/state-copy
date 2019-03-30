@@ -1,6 +1,6 @@
 {
   "name": "state-copy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "takes an object as input then serializes it as JSON and copies it to your clipboard",
   "main": "index.js",
   "author": " <jake @o91tsjBgL0l0zs475aRWYSAXFxvirZS7VrXmirY/msI=.ed25519>",
