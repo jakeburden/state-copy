@@ -1,5 +1,5 @@
 var fastSafeStringify = require('fast-safe-stringify')
-var copy = require('copy-text-to-clipboard')
+var copy = require('clipboard-copy')
 
 function tryStringify (obj) {
   try {

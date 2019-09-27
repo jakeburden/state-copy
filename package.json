@@ -5,9 +5,12 @@
   "main": "index.js",
   "author": " <jake @o91tsjBgL0l0zs475aRWYSAXFxvirZS7VrXmirY/msI=.ed25519>",
   "license": "MIT",
+  "scripts": {
+    "test": "standard && browserify test/*.js | tape-run | tap-format-spec"
+  },
   "dependencies": {
-    "copy-text-to-clipboard": "github:deliriousrhino/copy-text-to-clipboard#master",
-    "fast-safe-stringify": "^1.2.0"
+    "clipboard-copy": "^3.1.0",
+    "fast-safe-stringify": "^2.0.7"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,12 @@
     "clipboard",
     "serialize",
     "browser"
-  ]
+  ],
+  "devDependencies": {
+    "@tap-format/spec": "^0.2.0",
+    "browserify": "^16.5.0",
+    "standard": "^14.3.1",
+    "tape": "^4.11.0",
+    "tape-run": "^6.0.1"
+  }
 }
