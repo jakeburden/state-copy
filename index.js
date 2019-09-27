@@ -13,4 +13,3 @@ function stateCopy (obj) {
 }
 
 module.exports = stateCopy
-
